@@ -1,0 +1,5 @@
+name: KeyVault
+summary: Deploys Key Vault on ARM
+description: Deploys a Key Vault with Private endpoint
+runner: ARM
+templatePath: azuredeploy.json
