@@ -5,8 +5,18 @@ runner: ARM
 templatePath: azuredeploy.json
 
 parameters:
-  - id: AdminUsername
-    name: AdminUsername
+  - id: adminUsername
+    name: adminUsername
     description: 'Username'
     type: string
     required: true
+  - id: adminPasswordOrKey
+    name: adminPasswordOrKey
+    description: 'adminPasswordOrKey'
+    type: string
+    required: true
+  - id: workspaceName
+    name: workspaceName
+    description: 'workspaceName'
+    type: string
+    required: true    
