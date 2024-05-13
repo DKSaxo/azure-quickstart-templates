@@ -1,0 +1,5 @@
+name: StorageAccount
+summary: Deploys storage account on ARM
+description: Deploys a storage account 
+runner: ARM
+templatePath: azuredeploy.json
