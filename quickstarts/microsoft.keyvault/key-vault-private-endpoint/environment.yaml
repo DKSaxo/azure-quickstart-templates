@@ -3,3 +3,10 @@ summary: Deploys Key Vault on ARM
 description: Deploys a Key Vault with Private endpoint
 runner: ARM
 templatePath: azuredeploy.json
+
+parameters:
+  - id: AdminUsername
+    name: AdminUsername
+    description: 'Username'
+    type: string
+    required: true
